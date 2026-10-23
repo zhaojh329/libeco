@@ -1,0 +1,4 @@
+interface:
+  display_name: "libeco"
+  short_description: "Write and review libeco C++20 coroutine code"
+  default_prompt: "Use $libeco to write or review C++20 coroutine code with the libeco public API."

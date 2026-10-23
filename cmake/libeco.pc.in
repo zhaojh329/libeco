@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/@ECO_PC_PREFIX@
+exec_prefix=${prefix}
+libdir=${pcfiledir}/..
+includedir=${pcfiledir}/@ECO_PC_INCLUDE@
+
+Name: libeco
+Description: Linux C++20 stackless cooperative coroutines
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -leco
+Cflags: -I${includedir} -std=c++20
